@@ -1,0 +1,44 @@
+UI/UX DESIGN PROMPT
+==================================================
+
+Project Type: Web Application
+Purpose: car ui
+Target Users: professionals
+Screen Count: 2
+Key Features: ok
+Design Style: Modern & Vibrant
+Color Preferences: no
+Additional Requirements: no
+
+
+DESIGN RECOMMENDATIONS:
+- Use responsive grid layout (12-column system)
+- Implement consistent navigation patterns
+- Focus on accessibility (WCAG guidelines)
+- Optimize for both desktop and mobile views
+
+IMPLEMENTATION SUGGESTIONS:
+- Framework: React, Vue.js, or Angular
+- CSS Framework: Tailwind CSS, Bootstrap, or Material-UI
+- Tools: Figma for design, Storybook for components
+
+WIREFRAME TEMPLATE:
+
+┌─────────────────────── HEADER ───────────────────────┐
+│  Logo    Navigation Menu              User Profile   │
+├───────────────────────────────────────────────────────┤
+│                                                       │
+│  ┌─────────────┐  ┌─────────────────────────────────┐ │
+│  │   Sidebar   │  │         Main Content            │ │
+│  │             │  │                                 │ │
+│  │  • Feature1 │  │  ┌─────────────────────────────┐ │ │
+│  │  • Feature2 │  │  │        Content Area         │ │ │
+│  │  • Feature3 │  │  │                             │ │ │
+│  │             │  │  └─────────────────────────────┘ │ │
+│  └─────────────┘  └─────────────────────────────────┘ │
+│                                                       │
+├───────────────────────────────────────────────────────┤
+│                     FOOTER                            │
+└───────────────────────────────────────────────────────┘
+
+Generated on: 7/24/2025, 12:52:09 AM

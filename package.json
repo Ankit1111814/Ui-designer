@@ -1,0 +1,45 @@
+{
+  "name": "ui-designer-cli",
+  "version": "1.0.0",
+  "description": "🎨 Interactive CLI tool for generating UI/UX design prompts and templates",
+  "main": "ui-designer-cli.js",
+  "bin": {
+    "ui-designer": "./ui-designer-cli.js",
+    "frontend-builder": "./frontend-ui-builder.js"
+  },
+  "scripts": {
+    "start": "node ui-designer-cli.js",
+    "test": "node test.js",
+    "dev": "nodemon ui-designer-cli.js"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "design",
+    "cli",
+    "wireframe",
+    "prompt",
+    "template"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ui-designer-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ui-designer-cli/issues"
+  },
+  "homepage": "https://github.com/yourusername/ui-designer-cli#readme"
+}
